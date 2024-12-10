@@ -37,7 +37,7 @@ public class multiframe {
 		}
 		driver.findElement(By.xpath("//a[text()='Default']")).click();
 		Thread.sleep(1000);
-		driver.switchTo().frame(0);
+		driver.switchTo().frame(1);
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("input[id='username']")).sendKeys("Prashanth");
 		driver.findElement(By.cssSelector("input[id='password']")).sendKeys("Prashanth@25");
